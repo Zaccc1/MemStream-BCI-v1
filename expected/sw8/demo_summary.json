@@ -1,0 +1,27 @@
+{
+  "mode": "sw8",
+  "eid": "9b5a1754-ac99-4d53-97d3-35c2f6638507",
+  "probe": "probe00",
+  "ap_interval_s": [
+    240.0,
+    242.0
+  ],
+  "calibration_interval_s": [
+    0,
+    240
+  ],
+  "calibration": "bundled_240s_fit",
+  "chunk_ms": 100.0,
+  "n_chunks": 20,
+  "total_spikes": 2952,
+  "active_clusters": 284,
+  "elapsed_s": 16.398769000079483,
+  "python": "3.12.3",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "interpretation": "Sorting output for the specified AP interval",
+  "arrays_sha256": {
+    "spike_times.npy": "5c32cdcc7c7ef3fbcba037b66b2663922ed2e9129b55f60a69008ec5be5c3fbe",
+    "spike_clusters.npy": "82751314b4f1fd8b9a8a681b98f01968900de8c99d4945c27e455e4b8e8c1643",
+    "channel_positions.npy": "df59d70989903a63c09bd42b69b98525fb89c0bb9f732918d6fb7bb409ed8135"
+  }
+}

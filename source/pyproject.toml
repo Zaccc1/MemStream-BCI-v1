@@ -1,0 +1,78 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bci-neural-processing-pipeline"
+version = "0.1.0"
+description = "Real-time Neuropixels spike sorting pipeline with GUI, IBL integration, and hardware-aware quantization."
+readme = { text = "Documentation, installation, and examples: https://github.com/Zaccc1/MemStream-BCI-v1", content-type = "text/plain" }
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Wuyu Zhao" }
+]
+dependencies = [
+  "numpy>=1.24",
+  "scipy>=1.10",
+  "matplotlib>=3.7",
+  "scikit-learn>=1.3",
+  "openpyxl>=3.1",
+  "h5py>=3.9",
+  "numba>=0.59",
+]
+
+[project.optional-dependencies]
+analysis = [
+  "pandas>=2",
+  "pyarrow>=14",
+]
+export = [
+  "onnx>=1.15",
+  "onnxruntime>=1.17",
+]
+ibl = [
+  "ONE-api>=2",
+  "ibllib>=3",
+  "mtscomp>=1",
+]
+ks4 = [
+  "kilosort>=4",
+  "torch>=2",
+]
+gui = [
+  "PyQt6>=6.5",
+]
+gui-pyqt5 = [
+  "PyQt5>=5.15",
+]
+dev = [
+  "pytest>=8",
+]
+
+[tool.setuptools]
+packages = ["gui"]
+py-modules = [
+  "alignment_diagnostic",
+  "calibration",
+  "comparison",
+  "config",
+  "config_runtime",
+  "data_loader",
+  "decode_task",
+  "diagnostics",
+  "ks4_full_reference",
+  "local_data_loader",
+  "main",
+  "merging",
+  "official_ks4_bridge",
+  "preprocessing",
+  "run_gui",
+  "run_logger",
+  "runtime_support",
+  "spatial_aggregation",
+  "spike_clustering",
+  "template_matching",
+  "visualization",
+  "window_compare",
+]

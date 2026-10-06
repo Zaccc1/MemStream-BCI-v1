@@ -1,0 +1,46 @@
+{
+  "data/calibration_fp.pkl.gz": {
+    "bytes": 73050770,
+    "sha256": "1f58ecabe7a3c279a7a01ae9418976a4fd810e6686b18034594aff129c933c3e"
+  },
+  "data/calibration_sw8.pkl.gz": {
+    "bytes": 34069254,
+    "sha256": "7a34d161918209fd016379143ef8c795e287a91ce9407aa64b35977a8bb2f197"
+  },
+  "data/channel_positions.npy": {
+    "bytes": 3200,
+    "sha256": "df59d70989903a63c09bd42b69b98525fb89c0bb9f732918d6fb7bb409ed8135"
+  },
+  "data/config_fp.json": {
+    "bytes": 5057,
+    "sha256": "455c495f8a287fb6dc1846421fa5feb53450ccc4f64276c3a62643396cf67a9b"
+  },
+  "data/config_sw8.json": {
+    "bytes": 5057,
+    "sha256": "3237ec383e1d140630a38eb5d7182b3c872ae670d633c209e579fbb44541a89e"
+  },
+  "data/download_descriptor.json": {
+    "bytes": 913,
+    "sha256": "e9f0159e1ec4607029752160e0cca61e416020760fb77ea2a55266044f51578a"
+  },
+  "data/ks4_labels_240s_384ch.npz": {
+    "bytes": 10402640,
+    "sha256": "9aa5e84c00d3b922d16886333360415ef87181964dd395e7da9cc5c4a8f63005"
+  },
+  "data/prefix.ap.ch": {
+    "bytes": 19168,
+    "sha256": "b2b1bf3c30db1f496dfac8c1048bd3c9794cde5c02fd7b00ed74b544c2c539ec"
+  },
+  "data/prefix.ap.meta": {
+    "bytes": 17694,
+    "sha256": "a64c3c25a401fc11801c113a7544b6fe95fadbdaf086be6acd9bcac35824762d"
+  },
+  "data/provenance.json": {
+    "bytes": 771,
+    "sha256": "80c624366a260d42d4aed1b7e8bac243678b9f9ee60f46be44ca8363248afcae"
+  },
+  "data/smoke_raw.npz": {
+    "bytes": 16982551,
+    "sha256": "20f4790c599ef4848ecdb3ce6eae2d0bd34f18a3b3b02d2b2d446b2576479aa4"
+  }
+}

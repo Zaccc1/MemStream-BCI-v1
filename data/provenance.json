@@ -1,0 +1,34 @@
+{
+  "eid": "9b5a1754-ac99-4d53-97d3-35c2f6638507",
+  "probe": "probe00",
+  "pid": "c2ebf259-9777-4a8f-b1de-5302776961d2",
+  "lab": "mainenlab",
+  "subject": "ZFM-01936",
+  "date": "2021-01-22",
+  "session": "002",
+  "source": "International Brain Laboratory Brain-Wide Map",
+  "license": "CC BY 4.0",
+  "models": {
+    "fp": {
+      "interval_s": [
+        0,
+        240
+      ]
+    },
+    "sw8": {
+      "interval_s": [
+        0,
+        240
+      ]
+    }
+  },
+  "smoke": {
+    "interval_s": [
+      240,
+      242
+    ],
+    "n_samples": 60000,
+    "raw_int16_sha256": "5e53e1f3293600367e1e8c1bc13ba2dffd62b43fbdaf4a0aee551c431df7b958",
+    "channel_layout": "AP channels only; sync excluded; ADC codes and conversion factors retained"
+  }
+}

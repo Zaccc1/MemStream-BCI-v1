@@ -1,0 +1,24 @@
+{
+  "eid": "9b5a1754-ac99-4d53-97d3-35c2f6638507",
+  "pid": "c2ebf259-9777-4a8f-b1de-5302776961d2",
+  "probe": "probe00",
+  "ap_dataset_id": "b94762d8-3634-4a61-8ca8-40eac49aad50",
+  "url": "https://ibl-brain-wide-map-public.s3.amazonaws.com/data/mainenlab/Subjects/ZFM-01936/2021-01-22/002/raw_ephys_data/probe00/_spikeglx_ephysData_g1_t0.imec0.ap.b94762d8-3634-4a61-8ca8-40eac49aad50.cbin",
+  "requested_interval_s": [
+    0,
+    600
+  ],
+  "stored_interval_s": [
+    0,
+    600.0
+  ],
+  "sample_rate": 30000,
+  "n_ap_channels": 384,
+  "n_saved_channels": 385,
+  "prefix_bytes": 5117390044,
+  "prefix_sha256": "29aa2f6e19253672b01fc9933b276b491e76c714916b861b88dd4d28aca72993",
+  "original_file_bytes": 36435041735,
+  "original_dataset_md5": "855488fe222b3581161306ef7c51ac5f",
+  "data_license": "CC BY 4.0",
+  "note": "Compressed chunk-aligned prefix; inference is bounded to 600 s."
+}

@@ -1,0 +1,48 @@
+# Python caches and local tooling
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# macOS / editor noise
+.DS_Store
+.idea/
+.vscode/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Generated results, logs, and runtime artifacts
+results*/
+cali/
+export_test/
+hardware_export_runs/
+log_*.txt
+results_log.xlsx
+wTEMP.npz
+outputs/
+recordings/
+benchmark_runs/
+*_full_sorting_*/
+docs/recording_schematics/
+docs/recording_schematics_ibl/
+tools/docs/
+figure/
+nn1/
+node_modules/
+
+# Packaging output
+build/
+dist/
+*.egg-info/
+clean_package/
+
+# Local recovery launchers
+/recover_*.py
+/resume_*.ps1
+/run_*_queue.ps1
+/run_*_background.py
